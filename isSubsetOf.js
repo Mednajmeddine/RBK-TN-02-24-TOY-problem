@@ -17,8 +17,34 @@
  * subset.
 */
 Array.prototype.isSubsetOf = function (arr) {
-  // your code here
+
+   var obj={}
+
+  
+
+
+  for (let i = 0; i  < arr.length; i++) {
+    for (let j = 0; j  < arr.length; j++) {
+
+      if(a[i].includes(b[j]===true) || a.isSubsetOf(b)===true){
+        return true
+          }
+                
+                 
+
+         else {
+            
+           
+
+               
+
+             
+           }       
+    
+
+  }
+  
+    }
+  
 
 };
-
-/*
